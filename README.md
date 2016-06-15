@@ -22,8 +22,8 @@ Add the following code at the bottom of your LocalSettings.php:
 
 ### 4. Update LocalSettings.wikifab.php
 
-Replace : $egChameleonLayoutFile= __DIR__ . '/skins/wikifabStyleModule/WikifabStyleModule.xml';
-By : $egChameleonLayoutFile= __DIR__ . '/skins/lowtechlab-skin/layout-lowtechlab.xml';
+* Replace : $egChameleonLayoutFile= __DIR__ . '/skins/wikifabStyleModule/WikifabStyleModule.xml';
+* By : $egChameleonLayoutFile= __DIR__ . '/skins/lowtechlab-skin/layout-lowtechlab.xml';
 
 ### 5. Done!
 
