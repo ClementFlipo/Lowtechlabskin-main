@@ -8,7 +8,7 @@ Download the LowtechlabSkin-extension and place the file(s) in a directory calle
 
 Download the lowtechlab-skin and place the file(s) in a directory called lowtechlab-skin in your skins/ folder.
 
-### 3. Update your LocalSettings.php
+### 3. Update LocalSettings.php
 
 Add the following code at the bottom of your LocalSettings.php:
 
@@ -20,6 +20,11 @@ Add the following code at the bottom of your LocalSettings.php:
     __DIR__ . '/skins/wikifabStyleModule/font-awesome-4.4.0/less/font-awesome.less' => $wgScriptPath . '/skins/wikifabStyleModule/font-awesome-4.4.0/less/font-awesome.less',
     __DIR__ . '/skins/lowtechlab-skin/css/style.css' => $wgScriptPath . '/skins/lowtechlab-skin',);
 
-### 4. Done!
+### 4. Update LocalSettings.wikifab.php
+
+Replace : $egChameleonLayoutFile= __DIR__ . '/skins/wikifabStyleModule/WikifabStyleModule.xml';
+By : $egChameleonLayoutFile= __DIR__ . '/skins/lowtechlab-skin/layout-lowtechlab.xml';
+
+### 5. Done!
 
 Navigate to Special:Version on your wiki to verify that the extension is successfully installed.
